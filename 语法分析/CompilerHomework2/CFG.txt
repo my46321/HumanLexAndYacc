@@ -1,0 +1,11 @@
+1  S->D;E
+2  E->for(T){E}
+3  E->X; 
+4  T->;X;
+5  D->int X
+6  X->varible X'
+7  X'->=X"
+8  X'-><X"
+9  X'->+X"
+10 X"->integer
+11 X"->X

@@ -1,0 +1,16 @@
+ S->D;E
+D->int X
+X->variable X'
+X'->=X"
+X"->integer
+E->for(T){E}
+T->;X;
+X->variable X'
+X'-><X"
+X"->integer
+E->X
+X->variable X'
+X'->=X"
+X"->XX->variable X'
+X'->+X"
+X"->integer
